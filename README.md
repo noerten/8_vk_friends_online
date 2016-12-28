@@ -11,3 +11,4 @@
     USER_PASSWORD = 'your_password'
 
 где `your_login@example.com` - ваш логин, `your_password` - ваш пароль. 
+Затем запустить скрипт, вместо ввода логина и пароля нажимать "Enter".

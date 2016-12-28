@@ -1,6 +1,6 @@
 try:
     import config
-except:
+except ImportError:
     pass
 import getpass
 

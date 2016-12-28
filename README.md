@@ -4,6 +4,6 @@
 ## Как использовать:
 1. Запустить скрипт, ввести логин и пароль.
 2. Если нет желания вводить каждый раз логин/пароль, можно создать в каталоге со скриптом файл "config.py" и в нем указать:
- `USER_LOGIN = 'your_login@example.com'
-USER_PASSWORD = 'your_password'`
+    USER_LOGIN = 'your_login@example.com'
+    USER_PASSWORD = 'your_password'
 где `your_login@example.com` - ваш логин, `your_password` - ваш пароль. 

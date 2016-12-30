@@ -2,29 +2,17 @@ import getpass
 
 import vk
 
-try:
-    import config
-except ImportError:
-    pass
-
 
 APP_ID = '5798454'
 
 
 def get_user_login():
-    user_login = input("Enter your login or press 'Enter' to get it from"
-                       " config.py, that is placed in the script's folder: ")
-    if not user_login:
-        user_login = config.USER_LOGIN
+    user_login = input("Enter your login: ")
     return user_login
 
 
 def get_user_password():
-    user_password = getpass.getpass("Enter your password or press 'Enter' to "
-                                    "get it from config.py, that is placed in "
-                                    "the folder with script: ")
-    if not user_password:
-        user_password = config.USER_PASSWORD
+    user_password = getpass.getpass("Enter your password: ")
     return user_password
 
 

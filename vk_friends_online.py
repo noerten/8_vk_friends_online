@@ -1,10 +1,11 @@
+import getpass
+
+import vk
+
 try:
     import config
 except ImportError:
     pass
-import getpass
-
-import vk
 
 
 APP_ID = '5798454'
